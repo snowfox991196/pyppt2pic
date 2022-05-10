@@ -7,11 +7,11 @@ import ppt2gif
 from pptx import Presentation, util
 
 # 使用传入参数作为路径
-ppt_file = sys.argv[1]
-print(ppt_file)
+# ppt_file = sys.argv[1]
+# print(ppt_file)
 
 # 这里输入ppt文件路径，使用双斜杠（\\）
-# ppt_file = "D:\\PYProject\\pyppt2pic\\test.pptx"
+ppt_file = "D:\\PYProject\\pyppt2pic\\test.pptx"
 
 # 拆分路径，文件名，扩展名
 filepath, tempfilename = os.path.split(ppt_file)
